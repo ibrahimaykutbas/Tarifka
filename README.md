@@ -40,10 +40,13 @@ Projeyi klonladıktan sonra ilgili dizine gidin.
 cd Tarifka
 code .
 ```
+
 Proje bağımlılıklarını yüklemek için proje dizininde aşağıdaki komutları çalıştırın.
 
 ```
 npm install
+-veya-
+yarn
 ```
 
 Eğer macOS kullanıyorsanız ve iOS işletim sistemine sahip bir cihazda projeyi başlatacaksanız pod'ları yükleyin.
@@ -59,7 +62,7 @@ Projeyi başlatmak için aşağıdaki komutları kullanın.
 
 ```
 npx react-native run-android
---or--
+-veya-
 npx react-native run-ios
 ```
 
